@@ -23,3 +23,41 @@
     </main>
 </body>
 </html>
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+}
+
+.machine {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.machine img {
+    width: 100px;
+    height: 100px;
+}
+
+.status {
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.available {
+    color: green;
+    background-color: #DFF0D8;
+}
+
+.in-use {
+    color: red;
+    background-color: #F2DEDE;
+}
