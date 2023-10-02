@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Laundry Room</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>College Laundry Room</h1>
+    </header>
+    <main>
+        <div class="machine">
+            <img src="washer.png" alt="Washer">
+            <p class="status available">Available</p>
+        </div>
+        <div class="machine">
+            <img src="dryer.png" alt="Dryer">
+            <p class="status in-use">In Use</p>
+        </div>
+        <!-- Add more machine divs as needed -->
+    </main>
+</body>
+</html>
